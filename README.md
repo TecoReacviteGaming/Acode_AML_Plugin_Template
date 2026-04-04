@@ -10,21 +10,21 @@ Download one of NDK depending on your phone architecture. Download [this app](<h
 - [NDK for 32-bit/ARMv7 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/XRlRTIjJ>)
 - [NDK for 64-bit/ARM64 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/7RdTzYxQ>)
 
-After downloaded the NDK, open terminal by clicking on 3 vertical dots at the top then look for terminal and run the following commands:
+After downloaded the NDK, open Acode then open terminal by clicking on 3 vertical dots at the top then look for terminal and run the following commands:
 
 Add the package:
-```sh
+```shell
 apk update && apk upgrade
 apk add tar
 ```
 
 Extract the **tar.gz** you downloaded:
-```sh
+```shell
 mv /sdcard/Download/ndk_arm.tar.gz $HOME
 tar -xzf ndk_arm.tar.gz && rm -rf ndk_arm.tar.gz
 ```
 if 64-bit:
-```sh
+```shell
 mv /sdcard/Download/ndk_arm64.tar.gz $HOME
 tar -xzf ndk_arm64.tar.gz && rm -rf ndk_arm64.tar.gz
 ```
@@ -36,18 +36,18 @@ Now, click on 3 vertical dots at the top and then files then look for folder nam
 After NDK is imported, move your shared library folder into Acode, first download this repository and extract AcodeTemplate folder.
 
 then enter the following commands:
-```sh
+```shell
 mkdir -p User/SharedLibrary/
 mv /sdcard/Download/AcodeTemplate/ $HOME/User/SharedLibrary/
 ```
 After that click on 3 horizontal lines at the top and open files then look for AcodeTemplate folder located in **User/SharedLibrary** directory.
 
 now compilation time, long click on AcodeTemplate folder then open in terminal and then run the following commands:
-```sh
+```shell
 ./build.sh
 ```
 
 Run this once if it throws an error that says permission denied.
-```sh
+```shell
 chmod +x build.sh
 ```
