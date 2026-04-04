@@ -5,7 +5,7 @@ Download Acode [from here](<https://f-droid.org/packages/com.foxdebug.acode/>) a
 
 This repository guide you on how to compile shared library (.so) on Android without AIDE, the setups might take a while.
 
-## 📁 Importing NDK
+## Importing NDK 📁
 Download one of NDK depending on your phone architecture. Download [this app](<https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker>) to know what architecture your phone is using.
 - [NDK for 32-bit/ARMv7 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/XRlRTIjJ>)
 - [NDK for 64-bit/ARM64 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/7RdTzYxQ>)
@@ -32,7 +32,7 @@ And wait until finished.
 
 Now, click on 3 vertical dots at the top and then files then look for folder named "android-ndk-aide" after that rename it to "android-ndk", now move on to next step.
 
-## 👨🏻‍💻 Compiling shared library (.so)
+## Compiling shared library (.so) ⚙️
 After NDK is imported, move your shared library folder into Acode, first download this repository and extract AcodeTemplate folder.
 
 then enter the following commands:
