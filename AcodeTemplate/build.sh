@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Shell version of build.ps1 run "./build.sh" command in Acode terminal.
+NDKPath=$(< "$PWD/NDKPath.txt")
+echo "NDK located at: $NDKPath"
+
+buildScript="$NDKPath/ndk-build"
+
+echo "[BUILD] Starting NDK..."
+"$buildScript" NDK_PROJECT_PATH="$PWD" APP_BUILD_SCRIPT="$PWD/Android.mk" NDK_APPLICATION_MK="$PWD/Application.mk" NDK_DEBUG=0 -j12
+EXIT_CODE=$?
+echo "[BUILD] Process finished"
+
+directory="$(cd "$(dirname "$0")" && pwd)"
+folderName="$(basename "$directory")"
+
+# Change directory as you want for transfering .so to external path.
+rm -rf /sdcard/CompiledLibs/$folderName
+cp -r "$directory/libs" /sdcard/CompiledLibs/$folderName
+echo "[BUILD] Lib located at: /sdcard/CompiledLibs/$folderName"
+
+exit $EXIT_CODE
