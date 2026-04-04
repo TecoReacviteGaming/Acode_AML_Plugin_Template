@@ -28,7 +28,9 @@ mv /sdcard/Download/ndk_arm64.tar.gz $HOME
 tar -xzf ndk_arm64.tar.gz
 rm -rf ndk_arm64.tar.gz
 ```
-And wait until finished, now move on to next step.
+And wait until finished.
+
+Now, click on 3 vertical dots at the top and look for folder named "android-ndk-aide" after that rename it to "android-ndk", now move on to next step.
 
 ## 👨🏻‍💻 Compiling shared library (.so)
 After NDK is imported, move your shared library folder into Acode, first download this repository and extract AcodeTemplate folder.
