@@ -8,7 +8,7 @@ Download one of NDK depending on your phone.
 - [NDK for 32-bit/ARMv7 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/XRlRTIjJ>)
 - [NDK for 64-bit/ARM64 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/7RdTzYxQ>)
 
-After downloaded the NDK, open terminal by ctrl + shift + p then search for terminal and run the following commands:
+After downloaded the NDK, open terminal by clicking on 3 vertical dots at the top then look for terminal and run the following commands:
 
 Add package
 ```bash
