@@ -40,7 +40,7 @@ then enter the following commands:
 mkdir -p User/SharedLibrary/
 mv /sdcard/Download/AcodeTemplate/ $HOME/User/SharedLibrary/
 ```
-After that click on 3 horizontal lines at the top and open files then look for AcodeTemplate folder.
+After that click on 3 horizontal lines at the top and open files then look for AcodeTemplate folder located in **User/SharedLibrary** directory.
 
 now compilation time, long click on AcodeTemplate folder then open in terminal and then run the following commands:
 ```sh
