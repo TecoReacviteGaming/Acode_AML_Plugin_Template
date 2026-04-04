@@ -15,6 +15,7 @@ directory="$(cd "$(dirname "$0")" && pwd)"
 folderName="$(basename "$directory")"
 
 # Change directory as you want for transfering .so to external path.
+mkdir -p /sdcard/CompiledLibs/
 rm -rf /sdcard/CompiledLibs/$folderName
 cp -r "$directory/libs" /sdcard/CompiledLibs/$folderName
 echo "[BUILD] Lib located at: /sdcard/CompiledLibs/$folderName"
