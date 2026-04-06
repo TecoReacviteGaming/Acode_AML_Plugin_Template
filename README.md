@@ -5,7 +5,7 @@ Download Acode [from here](<https://f-droid.org/packages/com.foxdebug.acode/>) a
 
 This repository guide you on how to compile shared library (.so) on Android without AIDE, the setups might take a while.
 
-The terminal is Alpine Linux which is built-in Acode, doesn't need Termux.
+The terminal Acode using is Alpine Linux, doesn't need Termux.
 
 ## Importing NDK 📁
 Download one of NDK depending on your phone architecture. Download [this app](<https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker>) to know what architecture your phone is using.
