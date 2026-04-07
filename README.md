@@ -9,7 +9,7 @@ The terminal Acode using is Alpine Linux, doesn't need Termux.
 
 ## Importing NDK 📁
 Download the NDK below.
-- [android-ndk-r29-aarch64](<https://github.com/lzhiyong/termux-ndk>)
+- [android-ndk-r29-aarch64 (Termux NDK-BUILD)](<https://github.com/lzhiyong/termux-ndk>)
 
 After downloaded the NDK, open Acode then open terminal by clicking on 3 vertical dots at the top then look for terminal and run the following commands:
 
