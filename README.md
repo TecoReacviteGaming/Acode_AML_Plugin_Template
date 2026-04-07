@@ -8,9 +8,8 @@ This repository guide you on how to compile shared library (.so) on Android with
 The terminal Acode using is Alpine Linux, doesn't need Termux.
 
 ## Importing NDK 📁
-Download one of NDK depending on your phone architecture. Download [this app](<https://play.google.com/store/apps/details?id=com.danielpolish.a64bitchecker>) to know what architecture your phone is using.
-- [NDK for 32-bit/ARMv7 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/XRlRTIjJ>)
-- [NDK for 64-bit/ARM64 phones](<https://mega.nz/folder/2c1TWIJD#UCzO7kIo1e4WpFwZHIMYVw/file/7RdTzYxQ>)
+Download the NDK below.
+- [android-ndk-r29-aarch64](<https://github.com/lzhiyong/termux-ndk>)
 
 After downloaded the NDK, open Acode then open terminal by clicking on 3 vertical dots at the top then look for terminal and run the following commands:
 
