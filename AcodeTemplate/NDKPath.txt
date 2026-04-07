@@ -1,1 +1,1 @@
-/data/user/0/com.foxdebug.acode/files/alpine/home/android-ndk
+/data/user/0/com.foxdebug.acode/files/alpine/home/android-ndk-r29

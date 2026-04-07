@@ -17,18 +17,13 @@ After downloaded the NDK, open Acode then open terminal by clicking on 3 vertica
 Add the package:
 ```bash
 apk update && apk upgrade
-apk add tar
+apk add 7zip
 ```
 
-Extract the **tar.gz** you downloaded:
+Extract the **7z** you downloaded:
 ```bash
-mv /sdcard/Download/ndk_arm.tar.gz $HOME
-tar -xzf ndk_arm.tar.gz && rm -rf ndk_arm.tar.gz
-```
-if 64-bit:
-```bash
-mv /sdcard/Download/ndk_arm64.tar.gz $HOME
-tar -xzf ndk_arm64.tar.gz && rm -rf ndk_arm64.tar.gz
+mv /sdcard/Download/android-ndk-r29-aarch64.7z $HOME
+7z x android-ndk-r29-aarch64.7z
 ```
 And wait until finished.
 
