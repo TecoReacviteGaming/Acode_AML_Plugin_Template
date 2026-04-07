@@ -26,8 +26,6 @@ mv /sdcard/Download/android-ndk-r29-aarch64.7z $HOME
 ```
 And wait until finished.
 
-Now, click on 3 vertical dots at the top and then files then look for folder named "android-ndk-aide" after that rename it to "android-ndk", now move on to next step.
-
 ## Compile Shared Library ⚙️
 After NDK is imported, move your shared library folder into Acode, first download this repository and extract **AcodeTemplate** folder then run the following commands:
 ```bash
